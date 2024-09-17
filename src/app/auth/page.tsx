@@ -142,6 +142,18 @@ const Page = async () => {
 								alt="logo"
 							/>
 						</div>
+						<div className="flex items-center gap-1 px-8 py-2">
+							<img
+								src="https://img.shields.io/badge/Vitest-6E9F18.svg?style=for-the-badge&logo=Vitest&logoColor=white"
+								alt="logo"
+							/>
+						</div>
+						<div className="flex items-center gap-1 px-8 py-2">
+							<img
+								src="https://img.shields.io/badge/Testing%20Library-E33332.svg?style=for-the-badge&logo=Testing-Library&logoColor=white"
+								alt="logo"
+							/>
+						</div>
 					</Marquee>
 				</div>
 			</div>
