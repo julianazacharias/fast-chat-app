@@ -1,18 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chat Application
 
-## Getting Started
+[Link to this project](https://fast-chat-app.vercel.app/)
 
-First, run the development server:
+## Technologies used:
+
+   <div>
+    <a><img src="https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white"target="_blank">
+    <a><img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white" target="_blank">
+    <a><img src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black" target="_blank">
+    <a><img src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" target="_blank">
+    <a><img src="https://img.shields.io/badge/Redis-FF4438.svg?style=for-the-badge&logo=Redis&logoColor=white" target="_blank">
+    <a><img src="https://img.shields.io/badge/Upstash-00E9A3.svg?style=for-the-badge&logo=Upstash&logoColor=white" target="_blank">
+    <a><img src="https://img.shields.io/badge/shadcn/ui-000000.svg?style=for-the-badge&logo=shadcn/ui&logoColor=white" target="_blank">
+    <a><img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" target="_blank">
+    <a><img src="https://img.shields.io/badge/Vitest-6E9F18.svg?style=for-the-badge&logo=Vitest&logoColor=white" target="_blank">
+    <a><img src="https://img.shields.io/badge/Testing%20Library-E33332.svg?style=for-the-badge&logo=Testing-Library&logoColor=white" target="_blank">
+   </div>
+   <br/>
+
+This project is a fast Chat Application built with Vite.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js installed
+
+### Running the Development Server
+
+To start the development server, run:
+
+```bash
+npm install
+
+```
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
+
+### Running tests
+
+To run the tests:
+
+```bash
+npm run test
+
+```
+
+or
+
+```bash
+npm run test:ui
+
+```
+
+### Building for Production
+
+To build the project for production, run:
+
+```bash
+npm run build
+
+```
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
