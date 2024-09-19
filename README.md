@@ -71,6 +71,8 @@ npm run build
 
 **Description**: This project follows the tutorial to create a Next.js Chatp application with user authentication and a custom UI. It includes additional features, improvements and testing beyond the tutorial.
 
+## About the application
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
