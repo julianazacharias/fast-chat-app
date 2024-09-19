@@ -70,11 +70,9 @@ const Page = async () => {
 									<div className="relative flex justify-center items-center mt-4 mb-3 px-4">
 										<p className="text-sm text-center text-gray-800 max-w-xs sm:max-w-md bg-white p-4 rounded shadow-md">
 											Kinde prioritizes data security and privacy with
-											industry-standard practices. As a developer, I do not have
-											direct access to users' personal data managed by Kinde.
-											All sensitive data is handled securely by Kinde in
-											compliance with their privacy policies. For more details,
-											please refer to{" "}
+											industry-standard practices. All sensitive data is handled
+											securely by Kinde in compliance with their privacy
+											policies. For more details, please refer to{" "}
 											<a
 												href="https://docs.kinde.com/trust-center/privacy-and-compliance/privacy-policy/"
 												className="underline text-blue-600"
