@@ -25,40 +25,38 @@ const Page = async () => {
 				<img
 					src="/comment-dots-solid.svg"
 					alt="Dialog Logo"
-					className="absolute -right-24 opacity-60 brightness-75 -top-44 lg:scale-110 xl:scale-100 scale-[2] sm:scale-90
+					className="absolute -right-24 opacity-30 brightness-75 -top-44 lg:scale-110 xl:scale-100 scale-[2] sm:scale-90
         pointer-events-none select-none -z-1"
 				/>
 
-				<div className="flex flex-col gap-2 px-4 xl:ml-40 text-center md:text-start font-bold text-black">
-					<p className="text-2xl md:text-3xl text-balance z-10">
-						A super cool
-						<span className="bg-red-100 px-2 m-1 rounded-sm font-bold text-black">
-							Chat App
-						</span>
-						built
-					</p>
-
-					<p className="text-2xl md:text-3xl mt-2 mb-12 text-balance z-10">
-						to be
-						<span className="bg-red-100 font-bold px-2  m-1 rounded-sm text-black">
-							FAST
-						</span>
-						. Try now!
-					</p>
-					<div className="mb-3 flex justify-center">
-						<p className="text-sm text-center">
-							This application is{" "}
-							<strong className="text-sm">powered by Kinde</strong>.{" "}
-							<a
-								href="https://kinde.com"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-sm underline"
-							>
-								Learn more
-							</a>
-							.
+				<div className="flex flex-col gap-2 px-4 xl:ml-40 text-center md:text-start">
+					<div className="text-black font-bold">
+						<p className="text-2xl md:text-3xl text-balance z-10">
+							A super cool
+							<span className="px-2 m-1 font-bold">Chat App</span>
+							built
 						</p>
+
+						<p className="text-2xl md:text-3xl mt-2 mb-12 text-balance z-10">
+							to be
+							<span> FAST</span>. Try now!
+						</p>
+						<div className="mb-3 flex justify-center">
+							<p className="text-sm text-center">
+								This application is{" "}
+								<strong className="text-sm">powered by Kinde</strong>.{" "}
+								<a
+									href="https://kinde.com"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="text-sm underline"
+								>
+									Learn more
+								</a>
+								.
+							</p>
+						</div>
+
 						<TooltipProvider>
 							<Tooltip>
 								<TooltipTrigger>
