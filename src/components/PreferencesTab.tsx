@@ -15,10 +15,12 @@ function PreferencesTab() {
 	const [playSoundOff] = useSound("/sounds/sound-off.mp3");
 
 	return (
-		<div className="flex flex-wrap gap-2 md:px-2">
+		<div className="flex flex-wrap gap-5 md:px-2">
 			<Button
 				variant={"outline"}
 				size={"icon"}
+				// className="dark:bg-[#ffffff] bg-[#000000]"
+				className="dark:bg-[#000000] bg-[#ffffff]"
 				onClick={() => {
 					setTheme("light");
 					soundEnabled && playMouseClick();
@@ -29,6 +31,7 @@ function PreferencesTab() {
 			<Button
 				value={"outline"}
 				size={"icon"}
+				className="dark:bg-[#000000] bg-[#ffffff]"
 				onClick={() => {
 					setTheme("dark");
 					soundEnabled && playMouseClick();
@@ -39,6 +42,7 @@ function PreferencesTab() {
 			<Button
 				value={"outline"}
 				size={"icon"}
+				className="dark:bg-[#000000] bg-[#ffffff]"
 				onClick={() => {
 					setSoundEnabled(!soundEnabled);
 					soundEnabled ? playSoundOff() : playSoundOn();

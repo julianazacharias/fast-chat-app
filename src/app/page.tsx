@@ -53,8 +53,9 @@ export default async function Home() {
 
 			{/* dotted bg */}
 			<div
-				className="absolute top-0 z-[-2] h-screen w-screen dark:bg-[#8d1f2c] dark:bg-[radial-gradient(#ffffff33_1px,#0e0103_2px)] 
-				dark:bg-[size:40px_40px] bg-[#ff7287] bg-[radial-gradient(#00000033_1px,#ffffff_2px)] bg-[size:40px_40px]"
+				className="absolute top-0 z-[-2] h-screen w-screen 
+    dark:bg-[radial-gradient(circle,#b74650,#460b13)] 
+    bg-[radial-gradient(circle,#ffffff,#ffbdc2)]"
 				aria-hidden="true"
 			/>
 			<div className="z-10 border rounded-lg max-w-5xl w-full min-h-[85vh] text-sm lg:flex">

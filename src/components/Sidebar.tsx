@@ -30,7 +30,7 @@ function Sidebar({ isCollapsed, users }: SidebarProps) {
 	const { user } = useKindeBrowserClient();
 
 	return (
-		<div className="relative flex flex-col h-full gap-4 p-2 data-[collapsed=true]:p-2 max-h-full overflow-auto bg-background">
+		<div className="relative flex flex-col h-full gap-4 p-2 data-[collapsed=true]:p-2 max-h-full overflow-auto bg-background dark:bg-[#180002] bg-[#fbf3f4]">
 			{!isCollapsed && (
 				<div className="flex justify-between p-2 items-center">
 					<div className="flex gap-2 items-center text-2xl">
